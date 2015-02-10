@@ -1,0 +1,124 @@
+
+body {
+  margin: 100;
+  padding: 0;
+  background-color: #FFFF99;
+}
+
+table {
+  margin: 10, 10, 10, 10;
+  padding: 5, 5, 5, 5;
+  background-color: FFFFFF;
+}
+
+p {
+	margin: 0, 10, 6, 10;
+	font-family: Arial;
+	font-size: 14px;
+	color: #333333;
+}
+
+p a {
+	margin: 0, 10, 6, 10;
+	font-family: Arial;
+	font-size: 14px;
+  text-decoration: none;
+	color: #FF33CC;
+}
+
+blockquote {
+	margin: 10, 30, 10, 30;
+	font-family: Arial;
+	font-size: 14px;
+  font-style: italic;
+	color: #333333;
+}
+
+blockquote a {
+	margin: 10, 30, 10, 30;
+	font-family: Arial;
+	font-size: 14px;
+  font-style: italic;
+  text-decoration: none;
+	color: #FF33CC;
+}
+
+h1 {
+	margin: 10, 0, 10, 0;
+	font-family: Arial;
+	font-size: 26px;
+	font-weight: bold;
+	color: #000066;
+      }
+
+h2 {
+	margin: 10, 0, 6, 0;
+	font-family: Arial;
+	font-size: 20px;
+	font-weight: normal;
+	color: #000066;
+  line-height: 2;
+  border-top: 2px solid #000066;
+      }
+
+h3 {
+	margin: 10, 0, 6, 0;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000066;
+}
+
+h4 {
+	margin: 0, 0, 6, 0;
+	font-family: Arial;
+	font-size: 11px;
+	color: #333333;
+}
+
+h4 a {
+	margin: 0, 0, 6, 0;
+	font-family: Arial;
+	font-size: 10px;
+  text-decoration: none;
+	color: #FF33CC;
+}
+
+li {
+ 	margin: 0 0 2 0;
+  font-family: Arial, sans-serif;
+ 	font-size: 14px;
+ 	font-weight: normal;
+ 	color: #333333;
+}
+
+li a {
+	margin: 0, 10, 6, 10;
+	font-family: Arial;
+	font-size: 14px;
+  text-decoration: none;
+	color: #FF33CC;
+}
+
+footer {
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: normal;
+	color: #000000;
+}
+
+footer a {
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+  text-decoration: none;
+	color: #FF33CC;
+	padding: 10, 0, 10, 10;
+}
+
+a:hover {
+	margin: 0, 10, 6, 10;
+	font-family: Arial;
+  text-decoration: underline;
+	color: #0000FF;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <title>HTML/CSS Wiki</title>
+  <link rel="stylesheet" href="../style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <h4>You are here: <a href="../index.html">HTML/CSS Wiki</a> >> <a href="css-index.html">CSS</a> >> Styles Placement</h4>
+
+<h1>Styles Placement</h1>
+  <p>Apparently, there are three types of CSS styles:</p>
+
+  <h2>Inline Styles</h2>
+      <p>Inline styles are styles that are written directly in the tag on the document. Inline styles affect only the tag they are applied to.></p>
+        <p><code>&lta href="" style="text-decoration: none;"&gt</code></p>
+        <p>An inline style loses many of the advantages of a style sheet (by mixing content with presentation). Use this method sparingly!</p>
+<p>To use inline styles, add the style attribute to the relevant tag. The style attribute can contain any CSS property. The example shows how to change the color and the left margin of a h1 element</p>
+
+<h2>Internal Style Sheet (Embedded)</h2>
+      <p>Embedded styles are styles that are embedded in the head of the document. Embedded styles affect only the tags on the page they are embedded in.
+      </p>
+        <p><code>&ltstyle> type="text/css"> 
+          <br>p { color: #00f; } style&gt</code></p>
+          <p>An internal style sheet should be used when a single document has a unique style. You define internal styles in the head section of an HTML page, inside the <code>&ltstyle&gt</code> tag.</p>
+
+<h2>External Style Sheet</h2>
+      <p>External styles are styles that are written in a separate document and then attached to various Web documents. External style sheets can affect any document they are attached to.</p>
+      <p><code>&ltlink rel="stylesheet" type="text/css" href="styles.css" /&gt</code></p>
+      <p>An external style sheet is ideal when the style is applied to many pages. With an external style sheet, you can change the look of an entire Web site by changing just one file. Each page must include a link to the style sheet with the <code>&ltlink&gt</code> tag. The <code>&ltlink&gt</code> tag goes inside the head section.</p>
+
+<h2>Important Note about Inheritance in CSS</h2>
+<p>What style will be used when there is more than one style specified for an HTML element?</p>
+
+<p>Generally speaking we can say that all the styles will "cascade" into a new "virtual" style sheet by the following rules, where number four has the highest priority:</p>
+<ol>
+<li>Browser default</li>
+<li>External style sheet</li>
+<li>Internal style sheet (in the head section)</li>
+<li>Inline style (inside an HTML element)</li>
+</ol>

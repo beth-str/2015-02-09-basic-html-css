@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+  <title>HTML/CSS Wiki</title>
+  <link rel="stylesheet" href="../style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  
+</head>
+
+<body>
+  <h4>You are here: <a href="../index.html">HTML/CSS Wiki</a> >> <a href="html-index.html">HTML</a> >> Forms</h4>
+  <h1>Forms</h1>
+  <p>I have never used forms in html.  I just use Google. So I'm starting from scratch here...</p>
+<p>From <a href="http://www.w3schools.com/html/html_forms.asp">w3schools</a>
+
+
+<h2>Text Box</h2>
+  <form>
+  First name: <input type="text" name="firstname">
+  <br />
+  Last name: <input type="text" name="lastname">
+  </form>
+    
+<h2>Radio Button</h2>
+  <form>
+  <input type="radio" name="sex" value="male" checked>Male
+  <br>
+  <input type="radio" name="sex" value="female">Female
+  </form>
+
+<h2>Drop Down List</h2>
+  <form>
+    <select name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+    </select>
+  </form>
+
+<h2>Text Area (box)</h2>
+<form>
+  <textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+</form>
+
+<h2>Button</h2>
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+<h2>Checkboxes</h2>
+<form action="">
+<input type="checkbox" name="vehicle" value="Bike">Bike<br>
+<input type="checkbox" name="vehicle" value="Car">Car<br> 
+<input type="checkbox" name="vehicle" value="Skateboard">Skateboard<br> 
+<input type="checkbox" name="vehicle" value="Moto">Moto<br> 
+</form>
+
+<h2>Option Group</h2>
+<select>
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+    
+<h2>Submit Button</h2>
+  <form action="action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+  <input type="submit" value="Submit">
+  </form>
+    
+<h2>Action Attribute</h2>
+  <p>The action attribute defines the action to be performed when the form is submitted. The common way to submit a form to a server, is by using a submit button. Normally, the form is submitted to a web page on a web server.
+  </p>
+    
+<h2>Post</h2>
+  <p>You should use POST:<br>
+    If the form is updating data, or includes sensitive information (password).</p>
+  <p><strong>POST</strong> offers better security because the submitted data is not visible in the page address.</p>
+    
+<hr>
+<p>There is a lot more to know about forms, but I am going to call it a night!</p>
